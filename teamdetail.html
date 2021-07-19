@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./images/ipl-teams.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>IPL Teams Details | IPL 2021</title>
+</head>
+<body>
+    <header id="top-bar">
+        <div class="logo-division">
+            <img src="./images/logo.png"/>
+        </div>
+        <nav class="menu-items">
+            <ul>
+                <a href="./home.html"><li>Home</li></a>
+                <li>page</li>
+                <li>Blog</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+        <div class="search-box-division">
+                <input type="text" class="input-search" placeholder="Search for Player...">
+                <Button class="search-button player"><i class="fas fa-search"></i></button>
+        </div>
+    </header>
+    <main>
+        <section class="teamdetail-section-one">
+            <div class="team-details-header">
+                <div class="team-details-header-one">
+                    <figure>
+                        <img id="team-logo" src="" alt="">
+                    </figure>
+                    <h1 id="team-name">Mumbai Indians (MI)</h1>
+                </div>
+                <div class="team-social-icon">
+                    <h6>Follow Us On : </h6>
+                    <div>
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <div>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <div>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="hori-ruler"></div>
+            <div class="teamdetail-info">
+                <div class="teamdetail-info-one" >
+                    <div>
+                        <p>Owner Name  </p>
+                        <p>:</p>
+                        <p id="owner-name">Neeta AmBani</p>
+                    </div>
+                    <div>
+                        <p>Coach Name  </p>
+                        <p>:</p>
+                        <p id="coach-name">Neeta AmBani</p>
+                    </div>
+                    <div>
+                        <p>Mentor Name  </p>
+                        <p>:</p>
+                        <p id="mentor-name">Neeta AmBani</p>
+                    </div>
+                    <div>
+                        <p>Best Performance</p>
+                        <p>:</p>
+                        <p id="performance">Neeta AmBani Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum facere quasi nisi odit ipsam earum excepturi aperiam dolor saepe deleniti.</p>
+                    </div>
+                </div>
+                <div class="teamdetail-info-one" id="teamdetail-info-one">
+                     <div>
+                        <p>Captain</p>
+                        <p>:</p>
+                        <p id="captain-name">Neeta AmBani</p>
+                    </div>
+                    <div>
+                        <p>Vice-Captain</p>
+                        <p>:</p>
+                        <p id="vc-name">Neeta AmBani</p>
+                    </div>
+                    <div>
+                        <p>No. of Player</p>
+                        <p>:</p>
+                        <p id="pl-count">Neeta AmBani</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="teamdetails-section-two">
+            <div class="heading-details-section">
+                <h3>Team Player Details</h3>
+            </div>
+        </section>
+        <section class="teamdetails-section-three">
+            <h4>Top Batsman</h4>
+            <div class="team-player-card"></div>
+            <div class="hori-ruler"></div>
+            <div id="display-none">
+                <div class="team-player-card" id="batsman-card">
+                </div>
+                <h4>All-Rounders</h4>
+                <div class="hori-ruler"></div>
+                <div class="team-player-card" id="all-round-card"></div>
+                <h4>Top Bowlers</h4>
+                <div class="hori-ruler"></div>
+                <div class="team-player-card" id="bowler-card"></div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer-design">
+        <div class="footer-icons">
+            
+            <div>
+                <i class="fab fa-facebook-f"></i>
+            </div>
+            <div>
+                <i class="fab fa-twitter"></i>
+            </div>
+            <div>
+                <i class="fab fa-youtube"></i>  
+            </div>
+            <div>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+        <p>Indian Premier League © 2021</p>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
